@@ -54,7 +54,12 @@
 	"browserify": {
 		"transform": [
 			[
-				"babelify", {"presets": ["@babel/preset-env"]}
+				"babelify",
+				{
+					"presets": [
+						"@babel/preset-env"
+					]
+				}
 			]
 		]
 	}
